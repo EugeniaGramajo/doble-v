@@ -8,7 +8,7 @@ export default function Header() {
       <div className={styles.general}>
         <div id="home" className={styles.LogoDiv}>
           <img className={styles.img} src="./logo-plano.jpg" alt="Logo" />
-          <img className={styles.img} src="./nombre.jpg" alt="nombre"/>
+          <img className={styles.img1} src="./nombre2.jpg" alt="nombre"/>
         </div>
         <NavBar></NavBar>
       </div>

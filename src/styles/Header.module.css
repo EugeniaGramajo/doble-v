@@ -5,10 +5,17 @@
     background-color: black;
 }
 .img{
-    margin: auto;
+    
     width: 15%;
 }
+.img1{
+    width: 30%;
+}
 
+.doble{
+    display: flex;
+    flex-direction: column;
+}
 
 
 
@@ -16,10 +23,16 @@
 .img{
 width: 14%;
 }
+.img1{
+    width: 30%;
+}
 }
 @media(max-width: 1280px){
 .img{
     width: 20%;
+}
+.img1{
+    width: 35%;
 }
 }
 
@@ -27,11 +40,17 @@ width: 14%;
 .img{
     width: 25%;
 }
+.img1{
+    width: 40%;
+}
 }
 
 @media(max-width: 500px){
 .img{
 width: 30%;
+}
+.img1{
+    width: 50%;
 }
 }
 
