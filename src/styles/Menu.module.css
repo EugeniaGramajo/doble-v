@@ -1,0 +1,23 @@
+.menu{
+display: flex;
+flex-direction: column;
+background-color: black;
+height: fit-content;
+width: max-content;
+position: absolute;
+}
+
+
+.items{
+
+    font-size: 26px;
+    background-color: black;
+    margin-left: 3%;
+
+}
+.div{
+width: 100%;
+background-color: aliceblue;
+
+position:static;
+}

@@ -1,6 +1,10 @@
 body{
   background-image: url("../public/background.jpg");
   background-size: cover;
+  color: white;
+}
+#h-overflowAuto undefined{
+  height: 50%;
 }
 .App {
   text-align: center;
