@@ -1,7 +1,12 @@
 import React from "react"
+import Form from "./Form"
 
 
+export default function Contact(props){
 
-export default function Contacto(props){
+
+return <Form></Form>
+
+
 
     }
