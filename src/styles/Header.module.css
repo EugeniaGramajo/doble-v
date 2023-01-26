@@ -1,17 +1,13 @@
-.general{
-    width: 100%;
-    margin: auto;
-    background-color: black;
-}
 .LogoDiv{
+    align-items: center;
     display: flex;
     flex-direction: row;
     justify-content: center;
-
-    margin: auto;
     background-color: black;
     padding: 10px;
-    width: max-content;
+
+        width: 100%;
+
 
 }
 .img{
@@ -32,24 +28,34 @@
     display: flex;
     justify-content:end;
 }
-
+.general{
+    width: 100%;
+    margin: auto;
+}
 
 
 
 @media(min-width: 1920px){
 .img{
-width: 30%;
+width: 14%;
 }
 .img1{
-    width: 45%;
+    width: 30%;
+}
+.LogoDiv{
+    width: 100%;
 }
 }
+
 @media(max-width: 1280px){
 .img{
     width: 20%;
 }
 .img1{
     width: 35%;
+}
+.LogoDiv{
+    width: 100%;
 }
 }
 
@@ -70,6 +76,9 @@ width: 30%;
     width: 50%;
 }
 .general{border-bottom: 2px solid 	#D4AF37;}
+.LogoDiv{
+    width: fit-content;
+}
 }
 
 

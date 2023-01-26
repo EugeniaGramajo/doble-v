@@ -48,7 +48,15 @@
     cursor: default;
     color: #111;
    }
-   
+   @media (min-width:2000px) {
+    .general{
+        height: 70px;
+
+    }
+    .general a{
+        font-size: 30px;
+    }
+}
    @media(max-width:767px){
     .button{
         height: 20px;
@@ -59,6 +67,7 @@
     .button{
         font-size: 10px;
     }
+  
     
    }
   
