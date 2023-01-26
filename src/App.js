@@ -19,7 +19,6 @@ function App() {
     <FAQ></FAQ>
     <Projects></Projects>
     <Contact></Contact>
-  
     </>
   );
 }
