@@ -31,7 +31,7 @@
 .divmsg {
   width: 99%;
   resize: none;
-  height: 220px;
+  height: 200px;
 }
 
 .wrap {
@@ -124,7 +124,84 @@
     opacity: 0;
   }
 }
+.hh1 h1{
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+@media (max-width:2600px){
+  .divnamenum{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    padding: 5px;
+  }
+  .hh1{
+    font-size:25px;
+  }
+  .divform{
+    
+    width: 50%;
+    
+  }
+}
+@media (max-width:1520px){
+  .divnamenum{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    padding: 5px;
+  }
+  .hh1{
+    font-size: 15px;
+  }
+}
+@media(max-width:900px){
+  .divnamenum input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    height:25px;
+  }
+}
+@media (max-width:768px){
+  .divform {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+  }
 
+  .divnamenum {
+    font-size: 14px;
+
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    justify-content: center;
+  }
+
+  .divnamenum input {
+    width: 80%;
+  }
+
+  .divmsg {
+    padding: 1%;
+    font-size: 14px;
+  }
+
+  .enviar {
+    font-size: 12px;
+    padding: 9px;
+  }
+}
 @media (max-width: 500px) {
   .divform {
     display: flex;
