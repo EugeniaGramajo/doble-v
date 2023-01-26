@@ -58,17 +58,19 @@ export default function Form() {
 
     return (
         <>
-            <div className={styles.divgral}>
+            
 
                 <div className={styles.divform}>
                     <form onSubmit={handleSubmit}>
 
                         <div className={styles.divnamenum}>
-                            <input type="text" name="name" value={inputs.name} onChange={handleChange} placeholder="Escribe tu nombre..."></input>
+                            <h1>Formulario de contacto</h1>
+                            <p>Por favor rellena este formulario si tienes cualquier pregunta o te gustaría escribirnos un mensaje:</p>
+                            <input type="text" name="name" value={inputs.name} onChange={handleChange} placeholder="Tu nombre..."></input>
 
-                            <input type="tel" name="phone" pattern="[0-9]{3}[0-9]{3}[0-9]{3}" required onChange={handleChange} placeholder="Escribe Tu Numero..."></input>
+                            <input type="tel" name="phone" pattern="[0-9]{3}[0-9]{3}[0-9]{3}" required onChange={handleChange} placeholder="Tu Numero..."></input>
 
-                            <input type="text" name="email" value={inputs.email} onChange={handleChange} placeholder="Escribe Tu Email..."></input>
+                            <input type="text" name="email" value={inputs.email} onChange={handleChange} placeholder="Tu Email..."></input>
 
                         </div>
 
@@ -83,7 +85,7 @@ export default function Form() {
 
                     </form>
                 </div>
-            </div>
+            
         </>
     )
 }
