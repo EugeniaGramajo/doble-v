@@ -8,7 +8,7 @@ export default function MenuMobile(props) {
 
   return (
     <>
-    <div className={styles.div}>
+    <div >
       <div className={styles.menu}>
         <Link className={styles.items} to="home" smooth={true}>
           Home

@@ -1,22 +1,19 @@
 .menu{
 display: flex;
 flex-direction: column;
-background-color: black;
+background-color: rgba(0, 0, 0, 0.789);
 height: fit-content;
-width: max-content;
+width: 100%;
 position: absolute;
 }
 
 
 .items{
-
+    padding-left: 20px ;
+    width: 50%;
     font-size: 26px;
-    background-color: black;
-    margin-left: 3%;
+    background-color: rgb(0, 0, 0);
+    
 
 }
-.div{
-width: 100%;
-background-color: aliceblue;
-position:static;
-}
+

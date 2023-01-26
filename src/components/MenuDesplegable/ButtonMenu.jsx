@@ -11,14 +11,15 @@ export default function ButtonMenu() {
 
   const dispatch = useDispatch()
 const aux = useSelector(state=>state.menuButton)
+console.log(aux)
   const clickHandler = () => {
-dispatch(menuButton)
+dispatch(menuButton())
   };
   return (
     <>
       <div className={styles.buttonGeneral}>
         <button className={styles.button} onClick={clickHandler}>
-          <ButtonStyle aux={aux}></ButtonStyle>
+          <ButtonStyle></ButtonStyle>
         </button>
       </div>
     </>

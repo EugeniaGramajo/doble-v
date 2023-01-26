@@ -10,9 +10,12 @@ export default function Header() {
     <>
       <div className={styles.general}>
         <div id="home" className={styles.LogoDiv}>
-          <Media query="(min-width: 500px)">
+          <div className={styles.button}>
+            <Media query="(min-width: 500px)">
             {(matches) => (matches ? "" : <ButtonMenu />)}
           </Media>
+          </div>
+          
           <img className={styles.img} src="./logo-plano.jpg" alt="Logo" />
           <img className={styles.img1} src="./nombre2.jpg" alt="nombre" />
         </div>
