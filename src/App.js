@@ -15,9 +15,10 @@ function App() {
   return (
     <>
     <Header></Header>
-    {mobileNav? <MenuMobile></MenuMobile> : ""}
+    <MenuMobile></MenuMobile>
     <FAQ></FAQ>
     <Projects></Projects>
+    <Contact></Contact>
   
     </>
   );
