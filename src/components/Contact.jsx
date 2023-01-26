@@ -3,10 +3,9 @@ import Form from "./Form"
 
 
 export default function Contact(props){
+return(
+<Form></Form>
 
 
-return <Form></Form>
 
-
-
-    }
+)}

@@ -1,23 +1,36 @@
+.divgral{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border:1px solid white;
+}
+
+
 .divform{
-    padding: 7px;
+    padding: 3px;
     border:1px solid white;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
-    width:fit-content;
-    
+    margin: auto;
+    width: fit-content;
+   
 }
 .divnamenum{
     display:flex;
-    padding: 0px 5px 10px 5px;
+    justify-content:center;
+    align-content: center;
+    padding: 0px 0px 10px 0px;
     gap:1rem;
-    height: 30px;
+  
+  
 }
 .divmsg{
     width:99%;
 resize: none;
- height: 150px;
+ height: 120px;
+
 }
 
 .wrap {
@@ -32,8 +45,8 @@ resize: none;
     align-items: center;
     justify-content: center;
     margin: auto;
-    min-width: 100px;
-    min-height: 30px;
+    min-width: 80px;
+    min-height: 20px;
     font-family: 'Nunito', sans-serif;
     font-size: 15px;
     text-transform: uppercase;
@@ -55,7 +68,7 @@ resize: none;
     .enviar::before {
   content: '';
     border-radius: 1000px;
-    min-width: calc(90px + 12px);
+    min-width: calc(70px + 12px);
     min-height: calc(20px + 12px);
     border: 3px solid #a4a214;
     box-shadow: 0 0 60px rgba(137, 139, 13, 0.64);
@@ -108,4 +121,98 @@ resize: none;
   }
  
 
- 
+  @media only screen and (max-width: 600px) {
+    /* Estilos específicos para dispositivos móviles */
+    .divform{
+        
+       height: 50%;
+       width: 90%;
+        
+    }
+    .divnamenum {
+        height: 30px;
+        font-size: 14px;
+        padding: 2px 0px 20px 0px ;
+        width: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .divmsg {
+        height: 100px;
+        font-size: 14px;
+        width: 100%;
+      }
+    
+    .enviar {
+        font-size: 10px;
+        padding: 6px;
+      }
+      .name{
+        margin: auto;
+        width: 100px;
+        height: 90%;
+        padding: 0px 0px 0px 2px;
+    }
+    .tel{
+        margin: auto;
+        width: 100px;
+        height: 90%;
+        padding: 0px 0px 0px 2px;
+    }
+    .email{
+        margin: auto;
+        width: 100px;
+        height: 90%;
+        padding: 0px 0px 0px 2px;
+    }
+  }
+  @media only screen and (max-width: 400px) {
+    /* Estilos específicos para dispositivos móviles */
+    .divform{
+        
+       height: 50%;
+       width: 90%;
+        
+    }
+    .divnamenum {
+        height: 30px;
+        font-size: 14px;
+        padding: 2px 0px 20px 0px ;
+        width: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .divmsg {
+        height: 100px;
+        font-size: 14px;
+        width: 100%;
+      }
+    
+    .enviar {
+        font-size: 10px;
+        padding: 6px;
+        height: 20px;
+        width: 20px;
+       
+      }
+      .name{
+        margin: auto;
+        width: 50%;
+        height: 90%;
+        padding: 0px 0px 0px 2px;
+    }
+    .tel{
+        margin: auto;
+        width: 50%;
+        height: 90%;
+        padding: 0px 0px 0px 2px;
+    }
+    .email{
+        margin: auto;
+        width: 50%;
+        height: 90%;
+        padding: 0px 0px 0px 2px;
+    }
+}

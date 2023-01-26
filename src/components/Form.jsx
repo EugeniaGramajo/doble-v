@@ -58,28 +58,31 @@ export default function Form() {
 
     return (
         <>
-            <div className={styles.divform}>
-                <form onSubmit={handleSubmit}>
+            <div className={styles.divgral}>
 
-                    <div className={styles.divnamenum}>
-                        <input className={styles.name} type="text" name="name" value={inputs.name} onChange={handleChange} placeholder="Escribe tu nombre..."></input>
+                <div className={styles.divform}>
+                    <form onSubmit={handleSubmit}>
 
-                        <input className={styles.tel} type="tel" name="phone" pattern="[0-9]{3}[0-9]{3}[0-9]{3}" required onChange={handleChange} placeholder="Escribe Tu Numero..."></input>
+                        <div className={styles.divnamenum}>
+                            <input type="text" name="name" value={inputs.name} onChange={handleChange} placeholder="Escribe tu nombre..."></input>
 
-                        <input className={styles.email} type="text" name="email" value={inputs.email} onChange={handleChange} placeholder="Escribe Tu Email..."></input>
+                            <input type="tel" name="phone" pattern="[0-9]{3}[0-9]{3}[0-9]{3}" required onChange={handleChange} placeholder="Escribe Tu Numero..."></input>
 
-                    </div>
-                   
-                    <textarea className={styles.divmsg} value={inputs.msg} type="text" name="msg" onChange={handleChange} placeholder="Escribe Un Mensaje..."></textarea>
-                    <p>{errors.msg}</p>
+                            <input type="text" name="email" value={inputs.email} onChange={handleChange} placeholder="Escribe Tu Email..."></input>
 
+                        </div>
 
-
-                    <button className={styles.enviar} type="submit">Enviar</button>
+                        <textarea className={styles.divmsg} value={inputs.msg} type="text" name="msg" onChange={handleChange} placeholder="Escribe Un Mensaje..."></textarea>
+                        <p>{errors.msg}</p>
 
 
 
-                </form>
+                        <button className={styles.enviar} type="submit">Enviar</button>
+
+
+
+                    </form>
+                </div>
             </div>
         </>
     )
