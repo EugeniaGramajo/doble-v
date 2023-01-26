@@ -3,6 +3,7 @@
     flex-direction: row;
     justify-content: center;
     background-color: black;
+    padding: 10px;
 }
 .img{
     
@@ -15,6 +16,11 @@
 .doble{
     display: flex;
     flex-direction: column;
+}
+.button{
+    margin: auto;
+    display: flex;
+    justify-content:end;
 }
 
 
