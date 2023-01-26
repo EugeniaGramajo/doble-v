@@ -15,7 +15,7 @@ const SocialMedia = () => {
                 <FaFacebook className={styles.fa} />
             </a>
 
-            <a href={`https://web.whatsapp.com/send?phone=+59899476812?text=`}>
+            <a href={`https://wa.me/+59899476812?text=Hola,me interesa conocer mas sobre tus servicios`}>
             <FaWhatsapp className={styles.wsp}/>
             </a>
 

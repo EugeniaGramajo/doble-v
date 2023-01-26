@@ -27,7 +27,7 @@ justify-content: center;
   background: white;
 }
 .fa{
-  position: fixed;
+  position: relative;
   width: 55px;
   height: 55px;
   line-height:55px;
@@ -47,7 +47,7 @@ justify-content: center;
   background: rgb(66 103 178);
 }
 .in{
-  position: fixed;
+  position: relative;
   width: 55px;
   height: 55px;
   line-height: 55px;
