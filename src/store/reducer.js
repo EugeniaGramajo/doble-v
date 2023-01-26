@@ -10,5 +10,9 @@ export default function reducer(state=initialState, action){
             return{
                 ...state, menuButton:!state.menuButton
             }
+            default:
+                return {
+                    ...state
+                }
     }
 }

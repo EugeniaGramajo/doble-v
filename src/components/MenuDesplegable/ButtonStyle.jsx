@@ -1,4 +1,5 @@
 import React from "react";
+import { useSelector} from "react-redux"
 
 import styles from "../../styles/ButtonMenu.module.css";
 
@@ -6,11 +7,11 @@ export default function ButtonStyle(props) {
   const container = styles.container;
   const change = styles.change;
 
-  console.log("estilo",props.state)
+  const aux = useSelector(state=>state.menuButton)
 
   return (
     <>
-      <div className={`${props.state===true? change : container}`}>
+      <div className={`${ aux? change : container}`}>
         <div className={styles.bar1}></div>
         <div className={styles.bar2}></div>
         <div className={styles.bar3}></div>

@@ -1,11 +1,11 @@
 import React from "react";
+import { useSelector } from "react-redux";
 import{ Link }from "react-scroll"
 import styles from "../../styles/Menu.module.css"
 
 export default function MenuMobile(props) {
-  const aux = props.isOpen
+  const aux = useSelector(state=>state.menuButton)
 
-  console.log("aux", aux)
   return (
     <>
     <div className={styles.div}>
