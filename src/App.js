@@ -18,7 +18,7 @@ function App() {
     {mobileNav? <MenuMobile></MenuMobile> : ""}
     <FAQ></FAQ>
     <Projects></Projects>
-  
+  <Contact></Contact>
     </>
   );
 }
