@@ -5,7 +5,7 @@ import styles from "../styles/Contact.module.css"
 export default function Contact(props) {
     return (
         <>
-            <div className={styles.formsocial}>
+            <div id="contacto" className={styles.formsocial}>
                <div className={styles.contacto}> 
                 <SocialMedia></SocialMedia>
                 

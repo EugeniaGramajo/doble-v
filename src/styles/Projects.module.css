@@ -1,0 +1,27 @@
+.div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: fit-content;
+}
+
+
+.container{
+
+background: rgba(172, 172, 172, 0.303);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(9.2px);
+border: 1px solid rgba(172, 172, 172, 0.27);
+z-index: -10;
+}
+
+.div img{
+    height: 30%;
+    width: 40%;
+}
+.div h2 {
+    font-family: 'Rye', cursive;
+    font-weight: 100;
+    padding: 10px;
+}

@@ -22,3 +22,14 @@ padding: 0px 0px 5px 0px;
 
 }
 
+.menuanimationenter {
+    transform: translateX(0);
+}
+.menuanimationexit {
+    transform: translateX(-100%);
+}
+.menuanimationenter, .menuanimationexit {
+    transition: all 0.2s ease-in;
+}
+
+

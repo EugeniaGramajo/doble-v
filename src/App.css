@@ -7,6 +7,11 @@ body{
 #h-overflowAuto undefined{
   height: 50%;
 }
+
+#homes{
+  height: 70px;
+
+}
 .App {
   text-align: center;
 }

@@ -1,0 +1,27 @@
+.div{
+    text-align: center;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url("../../public/banner.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 150px;   
+
+    box-shadow: 0 5px 10px 2px rgba(0, 0, 0, 0.461);
+}
+.container{
+
+    background: rgba(172, 172, 172, 0.303);
+border-radius: 5px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(9.2px);
+
+
+}
+.container p{
+    font-family: 'Rye', cursive;
+    font-weight: 0;
+    font-size: 17px;
+}
