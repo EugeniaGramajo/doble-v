@@ -2,20 +2,21 @@
 import './App.css';
 import FAQ from './components/FAQ';
 import Header from './components/Header/Header';
-
-
 import Contact from './components/Contact';
 import Projects from './components/Projects';
-import MenuMobile from './components/MenuDesplegable/MenuMobile';
-import { useSelector } from 'react-redux';
+import Media from 'react-media';
+
 
 
 function App() {
-  const mobileNav = useSelector(state=>state.menuButton)
+ 
   return (
     <>
+    <Media query="(min-width:500px)">
+      {matches=>matches? "" :<h1 id="home">Hidden Tittle</h1>}
+    </Media>
+    
     <Header></Header>
-    <MenuMobile></MenuMobile>
     <FAQ></FAQ>
     <Projects></Projects>
     <Contact></Contact>

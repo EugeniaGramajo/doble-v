@@ -19,7 +19,7 @@ export default function MenuMobile(props) {
     <div >
     <div className={`${styles.menu} ${aux ? styles.menuanimationenter : styles.menuanimationexit}`}>
 
-        <Link className={styles.items} onClick={clickHandler} to="home" smooth={true}>
+        <Link className={styles.items} onClick={clickHandler} to="homes" smooth={true}>
           Home
         </Link>
         <Link className={styles.items} onClick={clickHandler} to="proyecto" smooth={true}>
@@ -34,7 +34,7 @@ export default function MenuMobile(props) {
         <Link className={styles.items} onClick={clickHandler} to="faq" smooth={true}>
           FAQ
         </Link>
-        <Link className={styles.items} onClick={clickHandler} to="contact" smooth={true}>
+        <Link className={styles.items} onClick={clickHandler} to="contacto" smooth={true}>
           Contacto
         </Link>
       </div>
