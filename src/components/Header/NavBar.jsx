@@ -6,7 +6,7 @@ export default function NavBar(props){
   
     return(
         <>
-        <div className={styles.general}>
+        <div className={`${styles.general} `}>
         
         <Link
           to="home"
