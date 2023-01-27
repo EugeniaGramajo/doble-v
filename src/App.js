@@ -1,7 +1,7 @@
 
 import './App.css';
 import FAQ from './components/FAQ';
-import Header from './components/Header';
+import Header from './components/Header/Header';
 
 
 import Contact from './components/Contact';

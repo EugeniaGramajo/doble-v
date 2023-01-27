@@ -1,12 +1,12 @@
 import React from "react";
-import styles from "../styles/NavBar.module.css"
+import styles from "../../styles/NavBar.module.css"
 import { Link } from "react-scroll";
 
 export default function NavBar(props){
-  console.log(props)
+  
     return(
         <>
-        <div className={`${styles.general} ${props.scrolled? styles.scrolled : ""}`}>
+        <div className={styles.general}>
         
         <Link
           to="home"
