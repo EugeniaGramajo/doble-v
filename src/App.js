@@ -5,6 +5,8 @@ import Header from './components/Header/Header';
 import Contact from './components/Contact';
 import Projects from './components/Projects';
 import Media from 'react-media';
+import Footer from './components/Footer';
+import Slogan from './components/Slogan';
 
 
 
@@ -17,9 +19,13 @@ function App() {
     </Media>
     
     <Header></Header>
-    <FAQ></FAQ>
+    <Slogan></Slogan>
+    
     <Projects></Projects>
+    <FAQ></FAQ>
     <Contact></Contact>
+
+    <Footer></Footer>
     </>
   );
 }
