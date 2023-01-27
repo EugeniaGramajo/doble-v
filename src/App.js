@@ -13,7 +13,7 @@ function App() {
   return (
     <>
     <Media query="(min-width:500px)">
-      {matches=>matches? "" :<h1 id="home">Hidden Tittle</h1>}
+      {matches=>matches? "" :<h1 id="homes">Hidden Tittle</h1>}
     </Media>
     
     <Header></Header>
