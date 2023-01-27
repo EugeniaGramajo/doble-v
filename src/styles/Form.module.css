@@ -14,10 +14,12 @@ background: #444444c1;
 }
 .divnamenum {
   gap: 1rem;
+  
 }
 .divnamenum input {
   width: 32.5%;
   height: 2.5rem;
+  background: black;
 }
 .divnamenum h1 {
   display: flex;
@@ -33,6 +35,7 @@ background: #444444c1;
   width: 99%;
   resize: none;
   height: 200px;
+  background: black;
 }
 
 .wrap {
