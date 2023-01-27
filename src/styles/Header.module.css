@@ -21,7 +21,7 @@
   flex-direction: column;
 }
 .button {
-  margin: auto;
+
   display: flex;
   justify-content: end;
 }
@@ -34,10 +34,10 @@
 
 @media (min-width: 1920px) {
   .img {
-    width: 14%;
+    width: 10%;
   }
   .img1 {
-    width: 30%;
+    width: 20%;
   }
   .LogoDiv {
     width: 100%;
@@ -67,10 +67,10 @@
 
 @media (max-width: 500px) {
   .img {
-    width: 29%;
+    width: 28%;
   }
   .img1 {
-    width: 49%;
+    width: 48%;
   }
   .general {
     border-bottom: 2px solid #d4af37;

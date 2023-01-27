@@ -33,7 +33,7 @@ export default function HeaderDesktop() {
           </div>
 
           <Headroom
-            onPin={() => console.log("pinned") }pinStart={160}
+            onPin={() => console.log("pinned") }pinStart={150}
             onUnpin={() => console.log("unpinned")}>
         <NavBar></NavBar>
       </Headroom>
