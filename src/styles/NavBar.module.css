@@ -80,10 +80,9 @@
    @media(max-width:767px){
     .button{
         height: 20px;
-
     }
    }
-   @media(min-width:500){
+   @media(min-width:500px){
     .button{
         font-size: 10px;
     }

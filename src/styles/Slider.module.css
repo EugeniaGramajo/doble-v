@@ -1,0 +1,41 @@
+
+.general{
+    background-color: rgb(96, 96, 186);
+    padding: 10px;
+    
+}
+.img{
+    height: 350px;
+    overflow: hidden;
+
+}
+.swiper{
+
+
+}
+
+
+@media (max-width:2500px) {
+    .img{
+
+    }
+}
+@media (max-width:1900px) {
+    .img{
+        
+    }
+}
+@media (max-width:1200px) {
+    .img{
+        
+    }
+}
+@media (max-width:800px) {
+    .img{
+        
+    }
+}
+@media (max-width:500px) {
+    .img{
+        height: 150px;}
+}
