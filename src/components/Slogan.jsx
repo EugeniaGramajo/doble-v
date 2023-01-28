@@ -1,13 +1,18 @@
-import React from "react";
+import React, { useState } from "react";
+import { useEffect } from "react";
 import styles from "../styles/Slogan.module.css";
 
 export default function Slogan() {
-  return (
+    const [width, setWidth] = useState(window.innerWidth);
+ 
+    useEffect(()=>{
+        setWidth(window.innerWidth)
+    })
+
+    return (
     <>
     <div className={styles.div}>
-      <div className={styles.container}>
-        <p>No se te antoja un tatuaje?</p>
-      </div>
+ 
     </div>
     </>
   );

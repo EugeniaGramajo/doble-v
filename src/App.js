@@ -7,6 +7,7 @@ import Projects from './components/Projects';
 import Media from 'react-media';
 import Footer from './components/Footer';
 import Slogan from './components/Slogan';
+import Border from './components/Border';
 
 
 
@@ -23,8 +24,9 @@ function App() {
     
     <Projects></Projects>
     <FAQ></FAQ>
+    <Border></Border>
     <Contact></Contact>
-
+  
     <Footer></Footer>
     </>
   );

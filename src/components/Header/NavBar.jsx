@@ -6,7 +6,11 @@ export default function NavBar(props){
   
     return(
         <>
-        <div className={`${styles.general} `}>
+        <div className={styles.border}>
+<img src="https://static.vecteezy.com/system/resources/previews/001/907/598/non_2x/golden-metallic-background-free-photo.jpg" alt="border"/>
+        
+        
+        </div>  <div className={`${styles.general} `}>
         
         <Link
           to="home"
