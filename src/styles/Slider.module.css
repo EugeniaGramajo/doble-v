@@ -1,41 +1,45 @@
 
 .general{
-    background-color: rgb(96, 96, 186);
+
     padding: 10px;
+    
+
     
 }
 .img{
+   border-radius: 5px;
     height: 350px;
-    overflow: hidden;
 
 }
 .swiper{
+margin: auto;
 
 
 }
 
 
-@media (max-width:2500px) {
+@media (min-width:2500px) {
     .img{
-
+        height: 650px;
     }
 }
 @media (max-width:1900px) {
     .img{
-        
+        height: 550px;
     }
 }
 @media (max-width:1200px) {
     .img{
-        
+        height: 400px;
     }
 }
 @media (max-width:800px) {
     .img{
-        
+        height: 300px;
     }
 }
 @media (max-width:500px) {
     .img{
-        height: 150px;}
+        height:250px;
+   }
 }

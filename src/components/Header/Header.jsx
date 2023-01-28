@@ -9,13 +9,16 @@ export default function Header() {
 
   return (
     <>
+    <div id="header">
+
+   
     <Media query="(min-width:500px)">
       {matches=> matches? <HeaderDesktop></HeaderDesktop>:""}
     </Media>
     <Media query="(min-width:500px)">
      {matches=> matches? "" : <HeaderMobile></HeaderMobile> }
     </Media>
-
+ </div>
     </>
   );
 }

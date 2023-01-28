@@ -8,6 +8,7 @@ import Media from 'react-media';
 import Footer from './components/Footer';
 import Slogan from './components/Slogan';
 import Border from './components/Border';
+import Home from './components/Home';
 
 
 
@@ -22,6 +23,7 @@ function App() {
     
     <Header></Header>
     <Slogan></Slogan>
+    <Home></Home>
     
     <Projects></Projects>
     <FAQ></FAQ>

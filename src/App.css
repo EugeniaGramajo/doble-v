@@ -7,6 +7,10 @@ body{
 #h-overflowAuto undefined{
   height: 50%;
 }
+#header{
+  position: relative;
+  z-index: 100;
+}
 
 #homes{
   height: 70px;
