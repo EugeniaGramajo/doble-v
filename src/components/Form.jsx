@@ -8,13 +8,13 @@ import styles from "../styles/Form.module.css"
 export default function Form() {
     const [inputs, setInputs] = useState({
         name: "",
-        phone: "",
+        asunto: "",
         email: "",
         msg: "",
     });
     const [errors, setErrors] = useState({
         name: "",
-        phone: "",
+        asunto: "",
         email: "",
         msg: "",
     });
@@ -36,13 +36,13 @@ export default function Form() {
             alert("Datos completos");
             setInputs({
                 name: "",
-                phone: "",
+                asunto: "",
                 email: "",
                 msg: "",
             });
             setErrors({
                 name: "",
-                phone: "",
+                asunto: "",
                 email: "",
                 msg: "",
             });
@@ -69,11 +69,11 @@ export default function Form() {
                     </div>
                     <div className={styles.divnamenum}>
 
-                        <input type="text" name="name" value={inputs.name} onChange={handleChange} required></input>
+                        <input type="text" name="name" value={inputs.name} onChange={handleChange} placeholder="Tu Nombre..."required></input>
 
-                        <input type="tel" name="phone" pattern="[0-9]{3}[0-9]{3}[0-9]{3}" required onChange={handleChange} placeholder="Tu Numero..." ></input>
+                        <input type="text" name="asunto"  value={inputs.asunto}onChange={handleChange} placeholder="Tu Asunto..." ></input>
 
-                        <input type="text" name="email" value={inputs.email} onChange={handleChange} placeholder="Tu Email..."></input>
+                        <input type="email" name="email" value={inputs.email} onChange={handleChange} placeholder="Tu Email..." required></input>
 
                     </div>
 

@@ -6,7 +6,7 @@
 background: #7c7b7bc1;
 ;
   height: 504.63px;
-  font-family: 'Rye', cursive;
+  font-family: 'Yuji Mai', cursive;
 }
 .divform form {
   width:90%;
@@ -118,19 +118,15 @@ border-radius: 2px;
     justify-content: center;
     flex-direction: row;
     padding: 5px;
-    
-    
   }
   .hh1{
     font-size:22px;
-    
-
   }
   .divform{
-    height: 600px;
+    height: 500px;
     width: 100%;
-    
   }
+  
 }
 @media (max-width:1520px){
   .divnamenum{
