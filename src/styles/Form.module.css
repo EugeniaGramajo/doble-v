@@ -3,39 +3,51 @@
   align-items: center;
   justify-content: center;
   flex-direction: row;
-background: #444444c1;
-  margin: auto;
-  width: 100%;
+background: #7c7b7bc1;
+;
   height: 504.63px;
   font-family: 'Rye', cursive;
 }
 .divform form {
-  width: 80%;
+  width:90%;
 }
 .divnamenum {
   gap: 1rem;
   
 }
-.divnamenum input {
+  .divnamenum input {
   width: 32.5%;
-  height: 2.5rem;
-  background: black;
-}
-.divnamenum h1 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.divnamenum p {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  padding: 10px;
+  background: rgb(16, 16, 16);
+  color: white;
+ border-radius: 5px;
+ border: none;
+ box-shadow: 0px 3px 6px 1px rgba(0, 0, 0, 0.556);
+} 
+.divnamenum input:hover{
+  transition: 0.5s;
+  box-shadow: 0px 3px 6px 1px rgba(0, 0, 0, 0.556);
+  background-color: #eaeaea;
+  color: black;
 }
 .divmsg {
-  width: 99%;
+  width: 99.8%;
   resize: none;
   height: 200px;
-  background: black;
+  background: rgb(16, 16, 16);
+  overflow: hidden;
+  border-radius: 5px;
+  border: none;
+  margin-top: 3%;
+  margin-bottom: 2%;
+  color: rgb(255, 255, 255);
+  box-shadow: 0px 3px 6px 1px rgba(0, 0, 0, 0.556);
+}
+.divmsg:hover{
+  transition: 0.5s;
+  box-shadow: 0px 3px 6px 1px rgba(0, 0, 0, 0.556);
+  background-color: #eaeaea;
+  color: black;
 }
 
 .wrap {
@@ -44,95 +56,61 @@ background: #444444c1;
   align-items: center;
   justify-content: center;
 }
-
-.enviar {
-  
+.divbutton{
   display: flex;
-  align-items: center;
   justify-content: center;
-  margin: auto;
+}
+.enviar {
+  cursor: default;
   bottom: 15px;
-  min-width: 50px;
-  min-height: 20px;
-  font-size: 15px;
-  text-transform: uppercase;
-  letter-spacing: 1.3px;
-  font-weight: 700;
-  color: #fefeff;
-  background: #f7f9f8;
-  background: linear-gradient(90deg, rgb(9, 9, 9) 25%, rgb(117, 133, 14) 100%);
+  padding:8px;
   border: none;
-  border-radius: 1000px;
-  box-shadow: 5px 5px 14px rgba(0, 0, 0, 0.827);
-  transition: all 0.3s ease-in-out 0s;
-  cursor: pointer;
-  outline: none;
   position: relative;
-  padding: 10px;
-  font-family: 'Rye', cursive;
-}
-
-.enviar::before {
-  content: "";
-  border-radius: 1000px;
-  min-width: calc(75px + 12px);
-  min-height: calc(20px + 12px);
+overflow: hidden;
+border-radius: 2px;
+  box-shadow: 0px 3px 6px 1px rgba(0, 0, 0, 0.556);
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 15px;
+  transition: .3s;
+  z-index: 1;
+  font-family: inherit;
+  color: #000000;
+  height: fit-content;
+ }
+ 
+ .enviar::before {
+  cursor: default;
+  content: '';
+  width: 0;
+  height: 300%;
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
-  opacity: 0;
-  transition: all 0.3s ease-in-out 0s;
-}
-
-.enviar:hover,
-.enviar:focus {
-  color: #ffffff;
-  transform: translateY(-6px);
-}
-
-.enviar:hover::before,
-.enviar:focus::before {
-  opacity: 1;
-}
-
-.enviar::after {
-  content: "";
-  width: 10px;
-  height: 10px;
-  border-radius: 100%;
-  border: 6px solid #ffffff;
-  position: absolute;
+  transform: translate(-50%, -50%) rotate(45deg);
+  background-image: url("https://static.vecteezy.com/system/resources/previews/001/907/598/non_2x/golden-metallic-background-free-photo.jpg");
+  transition: .5s ease;
+  display: block;
   z-index: -1;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  animation: ring 1.5s backwards;
-}
+ }
+ 
+ .enviar:hover::before {
+  width: 100%;
+ }
+ 
+ .enviar:hover {
+  cursor: default;
+  color: #111;
+ }
 
-.enviar:hover::after,
-.enviar:focus::after {
-  animation: none;
-  display: none;
-}
-
-@keyframes ring {
-  0% {
-    width: 30px;
-    height: 30px;
-    opacity: 1;
-  }
-  100% {
-    width: 100px;
-    height: 100px;
-    opacity: 0;
-  }
-}
 .hh1 h1{
   display: grid;
   align-items: center;
   justify-content: center;
+  font-weight: 100;
+
 }
+
 @media (max-width:2600px){
   .divnamenum{
     display: flex;
@@ -141,35 +119,73 @@ background: #444444c1;
     flex-direction: row;
     padding: 5px;
     
+    
   }
   .hh1{
-    font-size:25px;
+    font-size:22px;
+    
+
   }
   .divform{
-    
-    width: 50%;
+    height: 600px;
+    width: 100%;
     
   }
 }
 @media (max-width:1520px){
   .divnamenum{
     display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
+    justify-content:center;
+    flex-direction:column;
     padding: 5px;
   }
   .hh1{
-    font-size: 15px;
+    font-size: 18px;
+  
   }
+  .divform form{
+    width: 90%;
+    height: 88%;
+  }
+  .divnamenum input{
+    padding: 14px;
+        width: 60%;
+        
+  }
+  .divmsg{
+    font-size: 20px;
+  }
+}
+@media(max-width:1000px){
+  .hh1{font-size: 16px;}
+  .divmsg{height: 40%;}
 }
 @media(max-width:900px){
   .divnamenum input{
     display: flex;
-    align-items: center;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+ height: 25px;
+padding: 8px;
+    font-size: 16px;
+  }
+  .hh1{
+    font-size: 13px;
+  }
+  
+  .enviar{
+    bottom: 10px;
+  }
+  .divmsg{
+    height: 45%;
+    margin-top: 5%;
+  }
+  .divform{
+    display: flex;
+    flex-direction: column;
     justify-content: center;
-    flex-direction: row;
-    height:25px;
+    align-items: center;
   }
 }
 @media (max-width:768px){
@@ -178,28 +194,39 @@ background: #444444c1;
     flex-direction: column;
     height: 100%;
     width: 100%;
-    margin: auto;
+   
   }
-
+  .divform form{
+    width: 90%;
+  }
+.hh1{
+  font-size: 18px;
+ padding: 5px;
+}
   .divnamenum {
     font-size: 14px;
-
     height: 100%;
     width: 100%;
     display: flex;
     align-items: center;
     flex-direction: column;
-
     justify-content: center;
+    margin-bottom: 3%;
   }
 
   .divnamenum input {
-    width: 80%;
+    width: 50%;
   }
 
   .divmsg {
-    padding: 1%;
+    display: flex;
+    justify-content: center;
     font-size: 14px;
+    overflow: hidden;
+height: 150px;
+margin: auto;
+    width: 90%;
+    
   }
 
   .enviar {
@@ -235,10 +262,14 @@ background: #444444c1;
   .divmsg {
     padding: 1%;
     font-size: 14px;
+    overflow: hidden;
   }
 
   .enviar {
     font-size: 12px;
     padding: 9px;
+  }
+  .hh1{
+    font-size: 10px;
   }
 }

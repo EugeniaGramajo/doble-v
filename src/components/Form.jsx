@@ -65,24 +65,26 @@ export default function Form() {
 
                     <div className={styles.hh1}>
                         <h1 >Formulario de contacto</h1>
-                        <p>Por favor rellena este formulario si tienes cualquier pregunta o te gustaría escribirnos un mensaje:</p>
+
                     </div>
                     <div className={styles.divnamenum}>
-                        <input type="text" name="name" value={inputs.name} onChange={handleChange} placeholder="Tu nombre..."></input>
 
-                        <input type="tel" name="phone" pattern="[0-9]{3}[0-9]{3}[0-9]{3}" required onChange={handleChange} placeholder="Tu Numero..."></input>
+                        <input type="text" name="name" value={inputs.name} onChange={handleChange} required></input>
+
+                        <input type="tel" name="phone" pattern="[0-9]{3}[0-9]{3}[0-9]{3}" required onChange={handleChange} placeholder="Tu Numero..." ></input>
 
                         <input type="text" name="email" value={inputs.email} onChange={handleChange} placeholder="Tu Email..."></input>
+
                     </div>
 
 
-                    <textarea className={styles.divmsg} value={inputs.msg} type="text" name="msg" onChange={handleChange} placeholder="Escribe Un Mensaje..."></textarea>
+                    <textarea className={styles.divmsg} value={inputs.msg} type="text" name="msg" onChange={handleChange} placeholder="Escribe Un Mensaje..." required></textarea>
                     <p>{errors.msg}</p>
 
 
-
-                    <button className={styles.enviar} type="submit">Enviar</button>
-
+                    <div className={styles.divbutton}>
+                        <button className={styles.enviar} type="submit">Enviar</button>
+                    </div>
 
 
                 </form>

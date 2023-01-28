@@ -6,6 +6,8 @@ export default function Contact(props) {
     return (
         <>
             <div id="contacto" className={styles.formsocial}>
+               
+               
                <div className={styles.contacto}> 
                 <SocialMedia></SocialMedia>
                 
@@ -16,8 +18,8 @@ export default function Contact(props) {
                     <h1>Horarios:</h1>
                     <li>soy un horario jaja saludos</li>
                 </div>
+                <div className={styles.form}><Form></Form></div>
                 
-                <Form></Form>
             </div>
         </>
 
