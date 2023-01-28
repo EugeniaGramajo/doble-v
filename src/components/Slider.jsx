@@ -12,7 +12,7 @@ export default function Slider(props) {
     <div className={styles.general}>
       <Swiper
         spaceBetween={50}
-        slidesPerView={1.5}
+        slidesPerView={props.view}
         modules={[FreeMode]}
         loop={true}
         freeMode={true}
