@@ -9,7 +9,7 @@ import "swiper/css/pagination";
 
 export default function Slider(props) {
   return (
-    <div className={styles.general}>
+    <div  data-aos="fade-up" className={styles.general}>
       <Swiper
         spaceBetween={50}
         slidesPerView={props.view}
