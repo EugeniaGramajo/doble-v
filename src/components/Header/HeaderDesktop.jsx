@@ -28,8 +28,7 @@ export default function HeaderDesktop() {
     <>
       <div className={styles.navBar}>
           <div id="home" className={`${styles.LogoDiv} ${styles.example}`}>
-            <img className={styles.img} src="./logo-plano.jpg" alt="Logo" />
-            <img className={styles.img1} src="./nombre2.jpg" alt="nombre" />
+            <img className={styles.img} src="./logo-plano.png" alt="Logo" />
           </div>
 
           <Headroom
