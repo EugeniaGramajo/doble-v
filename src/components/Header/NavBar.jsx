@@ -43,26 +43,6 @@ export default function NavBar(props){
           Artista
         </Link>
         <Link
-          to="cuidados"
-          spy={true}
-          smooth={true}
-          offset={-70}
-          duration={500}
-          className={styles.button}
-        >
-          Cuidados
-        </Link>
-        <Link
-          to="faq"
-          spy={true}
-          smooth={true}
-          offset={-70}
-          duration={500}
-          className={styles.button}
-        >
-          FAQ
-        </Link>
-        <Link
           to="contacto"
           spy={true}
           smooth={true}
