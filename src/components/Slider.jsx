@@ -7,23 +7,27 @@ import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/pagination";
 
+
 export default function Slider(props) {
   return (
-    <div className={styles.general}>
+    <div  className={styles.general}
+    data-aos="fade-up"
+>
       <Swiper
-        spaceBetween={50}
+        spaceBetween={100}
         slidesPerView={props.view}
         modules={[FreeMode]}
         loop={true}
         freeMode={true}
-
+       
       >
         {props.images.map((img) => (
-          <SwiperSlide className={styles.swiper} key={img}>
+          <SwiperSlide  className={styles.swiper} key={img}>
             <img key={img} className={styles.img} src={img} />
           </SwiperSlide>
         ))}
       </Swiper>
+
     </div>
   );
 }

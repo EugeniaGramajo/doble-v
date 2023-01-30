@@ -9,6 +9,7 @@ import Footer from './components/Footer';
 import Slogan from './components/Slogan';
 import Border from './components/Border';
 import Home from './components/Home';
+import Artist from './components/Artist';
 
 
 
@@ -26,6 +27,7 @@ function App() {
     <Home></Home>
     
     <Projects></Projects>
+    <Artist></Artist>
     <FAQ></FAQ>
     <Border></Border>
     <Contact></Contact>
