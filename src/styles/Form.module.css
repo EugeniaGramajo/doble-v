@@ -141,20 +141,21 @@ border-radius: 2px;
   }
   .divform form{
     width: 90%;
-    height: 88%;
+    height: 100%;
   }
   .divnamenum input{
     padding: 14px;
         width: 60%;
-        
+        font-size: 15px;
   }
   .divmsg{
-    font-size: 20px;
+    font-size: 17px;
+    height: 27%;
   }
 }
 @media(max-width:1000px){
   .hh1{font-size: 16px;}
-  .divmsg{height: 40%;}
+  .divmsg{height: 30%;}
 }
 @media(max-width:900px){
   .divnamenum input{
@@ -174,7 +175,7 @@ padding: 8px;
     bottom: 10px;
   }
   .divmsg{
-    height: 45%;
+    height: 35%;
     margin-top: 5%;
   }
   .divform{
