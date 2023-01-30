@@ -10,8 +10,8 @@ export default function HeaderMobile() {
     <>
       <div className={`${styles.general} ${styles.navBarMobile}`}>
         <div id="home" className={styles.LogoDiv}>
-          <img className={styles.img} src="./logo-plano.jpg" alt="Logo" />
-          <img className={styles.img1} src="./nombre2.jpg" alt="nombre" />
+          <img className={styles.img1} src="./logo-plano.png" alt="Logo" />
+          
           <div className={styles.button}></div>
           <ButtonMenu />
           
