@@ -1,7 +1,7 @@
 .general{
     overflow-x: hidden;
     overflow-y: hidden;
-        width: 97vw;
+     
 
 
     
@@ -16,7 +16,9 @@ margin: auto;
 
 
 }
-
+.example{
+    width: 90vw;
+}
 
 @media (min-width:2500px) {
     .img{

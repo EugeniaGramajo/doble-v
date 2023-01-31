@@ -15,12 +15,7 @@ import { useEffect } from 'react';
 
 
 function App() {
- document.body.addEventListener('touchmove', function (e) { e.preventDefault(); }, { passive: false });
-  useEffect(() => {
-    const ps = new PerfectScrollbar(document.body, {
-      suppressScrollX: true
-    });
-  }, []);
+
  
   return (
     <>
