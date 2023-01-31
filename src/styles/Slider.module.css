@@ -1,14 +1,24 @@
 .general{
     overflow-x: hidden;
     overflow-y: hidden;
-     
+    margin: 5%;
+    padding-top:0.3% ;
+    background-color: rgba(240, 255, 255, 0.104);    
+    border-left: 10px solid;
+    border-right: 10px solid;
+    border-image: url("https://static.vecteezy.com/system/resources/previews/001/907/598/non_2x/golden-metallic-background-free-photo.jpg") 20 round;
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.5), 10px 0 10px rgba(0, 0, 0, 0.5);
+}
+.borderR{
 
-
+}
+.borderL{
     
 }
 .img{
-   border-radius: 5px;
+   border-radius: 3px;
     height: 350px;
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.375);
 
 }
 .swiper{
@@ -16,11 +26,7 @@ margin: auto;
 
 
 }
-.example{
-    width: 90vw;
-    margin: auto;
-    padding-top:2%;
-}
+
 
 @media (min-width:2500px) {
     .img{
@@ -49,6 +55,7 @@ margin: auto;
         height: 220px;
         width: 220px;
         overflow-x: hidden;
+        box-shadow: 0px 0px 20px 3px black;
     }
 }
 @media (max-width:800px) {
@@ -56,6 +63,7 @@ margin: auto;
         height: 180px;
         width: 180px;
         overflow-x: hidden;
+        box-shadow: -10px 0px 20px 3px black;
     }
 }
 @media (max-width:500px) {
@@ -63,5 +71,6 @@ margin: auto;
         height:180px;
         width: 180px;
         overflow-x: hidden;
+        
    }
 }
