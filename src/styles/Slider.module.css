@@ -1,7 +1,8 @@
 .general{
-
+    overflow-x: hidden;
+    overflow-y: hidden;
     padding: 10px;
-    
+    width: 100%;
 
     
 }
@@ -21,18 +22,21 @@ margin: auto;
     .img{
         height: 500px;
         width: 500px;
+        overflow-x: hidden;
     }
 }
 @media(max-width:2499px){
     .img{
         width: 400px;
         height: 400px;
+        overflow-x: hidden;
     }
 }
 @media (max-width:1800px) {
     .img{
         height: 350px;
         width: 350px;
+        overflow-x: hidden;
 
     }
 }
@@ -40,17 +44,20 @@ margin: auto;
     .img{
         height: 220px;
         width: 220px;
+        overflow-x: hidden;
     }
 }
 @media (max-width:800px) {
     .img{
         height: 180px;
         width: 180px;
+        overflow-x: hidden;
     }
 }
 @media (max-width:500px) {
     .img{
         height:180px;
         width: 180px;
+        overflow-x: hidden;
    }
 }

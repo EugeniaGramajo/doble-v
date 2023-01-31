@@ -26,7 +26,7 @@ export default function HeaderDesktop() {
 
   return (
     <>
-      <div className={styles.navBar}>
+{      <div className={styles.navBar}>
           <div id="home" className={`${styles.LogoDiv} ${styles.example}`}>
             <img className={styles.img} src="./logo-plano.png" alt="Logo" />
           </div>
@@ -39,7 +39,7 @@ export default function HeaderDesktop() {
 
           
 
-      </div>
+      </div>}
     </>
   );
 }

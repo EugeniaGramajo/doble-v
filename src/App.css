@@ -1,6 +1,8 @@
 body{
   background-image: url("../public/background2.jpg.png");
-  
+ 
+    overflow-x: hidden;
+ 
   color: white;
   font-family: 'Karla', sans-serif;
  
@@ -11,6 +13,9 @@ body{
 #header{
   position: relative;
   z-index: 100;
+}
+#swiper{
+  overflow: hidden;
 }
 
 #homes{
