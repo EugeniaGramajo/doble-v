@@ -1,21 +1,18 @@
-// Import Swiper React components
-import { Swiper, SwiperSlide } from "swiper/react";
+
 import styles from "../styles/Slider.module.css";
-  import 'swiper/css';
-import { FreeMode} from "swiper";
-import "swiper/css/bundle"
-import "swiper/css";
-import "swiper/css/free-mode";
-import "swiper/css/pagination";
-import PerfectScrollbar from "perfect-scrollbar";
-import { useEffect } from "react";
 import Carousel from "react-multi-carousel";
 import 'react-multi-carousel/lib/styles.css';
+import Swiper ,{ FreeMode } from 'swiper';
+import "swiper/css"
+import "swiper/css/free-mode"
+
+import { useEffect, useRef } from "react";
+import PerfectScrollbar from "perfect-scrollbar";
 
 
 
 export default function Slider(props) {
-  const responsive = {
+/*   const responsive = {
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
       items: 3
@@ -29,14 +26,14 @@ export default function Slider(props) {
       items: 2
     }
   };
-/*   useEffect(() => {
+  useEffect(() => {
     const ps = new PerfectScrollbar("#slider", {
       suppressScrollX: true
     });
-  }, []); */
+  }, []);
 
   return (
-/*     <div id="slider" data-aos="fade-up" className={styles.general}>
+    <div id="slider" data-aos="fade-up" className={styles.general}>
       <Swiper
         spaceBetween={0}
         slidesPerView={props.view}
@@ -53,7 +50,7 @@ export default function Slider(props) {
       </Swiper>
 
     </div> */
-    <div className={styles.example}>
+ /*    <div data-aos="fade-up" className={styles.example}>
    <Carousel responsive={responsive}
    swipeable={true}
    draggable={true}
@@ -64,7 +61,7 @@ export default function Slider(props) {
   customTransition="all .5"
   transitionDuration={500}
    autoPlaySpeed={1000}
-   itemClass="carousel-item-padding-40-px">
+   >
 {props.images.map(img=>
  <img key={img} className={styles.img} src={img} />
   )}
@@ -72,6 +69,36 @@ export default function Slider(props) {
       
     </Carousel>
   
+    </div> */
+    const swiperRef = useRef(null);
+useEffect(() => {
+  new Swiper(swiperRef.current, {
+    freeMode: {
+      enabled: true,
+      sticky: false,
+      momentumBounce:true,
+    },
+    slidesPerView: props.view,
+    centeredSlides:true,
+    allowTouchMove: true,
+    spaceBetween: 20,
+    loop:true,
+    preloadImages: true,
+    spaceBetween: 10,
+    resistance:false,
+    modules: [FreeMode],
+  });
+}, []);
+    return (
+      <>
+  
+  <div className="swiper-container" ref={swiperRef}>
+    <div className="swiper-wrapper">
+      {props.images.map((img)=>
+      <div class="swiper-slide"> <img className={styles.img} src={img}></img> </div>)}
     </div>
-  );
+
+  </div>
+      </>
+    )
 }

@@ -18,6 +18,8 @@ margin: auto;
 }
 .example{
     width: 90vw;
+    margin: auto;
+    padding-top:2%;
 }
 
 @media (min-width:2500px) {
