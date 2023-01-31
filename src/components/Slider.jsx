@@ -3,15 +3,24 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import styles from "../styles/Slider.module.css";
   import 'swiper/css';
 import { FreeMode} from "swiper";
+import "swiper/css/bundle"
 import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/pagination";
+import PerfectScrollbar from "perfect-scrollbar";
+import { useEffect } from "react";
 
 
 
 export default function Slider(props) {
+  useEffect(() => {
+    const ps = new PerfectScrollbar("#slider", {
+      suppressScrollX: true
+    });
+  }, []);
+
   return (
-    <div  data-aos="fade-up" className={styles.general}>
+    <div id="slider" data-aos="fade-up" className={styles.general}>
       <Swiper
         spaceBetween={0}
         slidesPerView={props.view}

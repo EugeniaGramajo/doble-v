@@ -19,7 +19,7 @@ export default function Projets() {
         <Media query="(min-width:500px)">
           {(matches) =>
             matches
-              ? (<div><Slider images={images} view={4}></Slider> <Slider images={images} view={4}></Slider></div>)
+              ? (<div><Slider images={images} view={3}></Slider> <Slider images={images} view={4}></Slider></div>)
               : ""
           }
         </Media>
