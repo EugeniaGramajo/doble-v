@@ -1,15 +1,16 @@
 .divgral{
     font-size: 50px;
      height: 100%;
-   width: 50%;
+   width: 100%;
   display: flex;
 align-items: center;
 justify-content: center;    
 }
 .wsp{
+  
   position: fixed;
-  width: 55px;
-  height: 55px;
+  width: 4%;
+  height: 7%;
   line-height: 55px;
   bottom: 30px;
   right: 30px;
@@ -28,12 +29,13 @@ justify-content: center;
 }
 .fa{
   position: relative;
+  width:100%;
   background: white;
   color:rgb(66 103 178);
   border-radius: 50px;
   text-align: center;
   box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
-  z-index: -10;
+  z-index: 0;
   left: 50%;
 }
 .fa:hover{
@@ -43,6 +45,7 @@ justify-content: center;
 }
 .in{
   right: 50%;
+  width: 100%;
   position: relative;
   color:black;
   background:radial-gradient(
@@ -56,7 +59,7 @@ justify-content: center;
   border-radius: 30%;
   text-align: center;
   box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
-  z-index: -10;
+  z-index: 0;
 }
 .in:hover{
   text-decoration: none;
@@ -71,11 +74,58 @@ justify-content: center;
   );
 }
 @media (max-width:2600px){
-  
+  .divgral{
+    font-size: 80px;
+  }
+  .wsp{
+    top:93.2%;
+    width: 4%;
+    height: 6%;
+  }
 }
 
-@media(min-width: 1280px){
-
+@media(max-width: 1520px){
+.divgral{
+  height: auto;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  font-size: 80px;
+}
+.wsp{
+  top:90%;
+  width: 5%;
+  height: 8%;
+}
+}
+@media (max-width:1200px){
+.wsp{
+  right: 2%;
+  top:90%;
+  height: 7%;
+  width: 6%;
+}
+}
+@media (max-width:1000px){
+.wsp{
+  height: 6%;
+  top:91%;
+}
+}
+@media (max-width:768px){
+  .fa{
+    font-size: 60px;
+    top:10px;
+  }
+  .in{
+    top:10px;
+    font-size: 60px;
+  }
+  .wsp{
+    top:90%;
+    height: 7%;
+    width: 8%;
+  }
 }
 @media(max-width: 500px){
   .divgral{
@@ -90,9 +140,10 @@ justify-content: center;
    align-items: center;
    justify-content: center;
    flex-direction:column;
-   
+   font-size: 50px;
   }
   .in{
+    font-size: 50px;
     display: flex;
    align-items: center;
    justify-content: center;
@@ -100,8 +151,13 @@ justify-content: center;
    right:10px;
   }
   .wsp{
-    
-    bottom: 10px;
-    right: 10px;
+    height: 7%;
+    width: 14%;
+  }
+}
+@media (max-width:320px){
+  .wsp{
+    height: 6%;
+    width: 610;
   }
 }

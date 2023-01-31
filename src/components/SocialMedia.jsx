@@ -5,6 +5,7 @@ import styles from "../styles/SocialMedia.module.css";
 
 const SocialMedia = () => {
     return (
+    
         <div className={styles.divgral}>
 
             <a href="https://www.instagram.com/doblevtatuajes/" >
@@ -19,7 +20,7 @@ const SocialMedia = () => {
             <FaWhatsapp className={styles.wsp}/>
             </a>
 
-
+            
 
         </div>
     );

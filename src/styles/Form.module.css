@@ -3,10 +3,8 @@
   align-items: center;
   justify-content: center;
   flex-direction: row;
-background: #7c7b7bc1;
-;
   height: 504.63px;
-  font-family: 'Yuji Mai', cursive;
+ 
 }
 .divform form {
   width:90%;
@@ -119,12 +117,20 @@ border-radius: 2px;
     flex-direction: row;
     padding: 5px;
   }
+  .divnamenum input{
+    font-size: 24px;
+  }
   .hh1{
-    font-size:22px;
+    font-size:26px;
   }
   .divform{
+    font-size: 20px;
     height: 500px;
     width: 100%;
+  }
+  .divmsg{
+    font-size: 24px;
+    height: 180px;
   }
   
 }
@@ -136,7 +142,7 @@ border-radius: 2px;
     padding: 5px;
   }
   .hh1{
-    font-size: 18px;
+    font-size: 22px;
   
   }
   .divform form{
@@ -144,16 +150,16 @@ border-radius: 2px;
     height: 100%;
   }
   .divnamenum input{
-    padding: 14px;
-        width: 60%;
-        font-size: 15px;
+    padding: 10px;
+        width: 70%;
+        font-size: 20px;
   }
   .divmsg{
-    font-size: 17px;
-    height: 27%;
+    font-size: 20px;
+    height: 21%;
   }
 }
-@media(max-width:1000px){
+@media(max-width:1200px){
   .hh1{font-size: 16px;}
   .divmsg{height: 30%;}
 }
@@ -218,7 +224,7 @@ padding: 8px;
   .divmsg {
     display: flex;
     justify-content: center;
-    font-size: 14px;
+    font-size: 16px;
     overflow: hidden;
 height: 150px;
 margin: auto;
