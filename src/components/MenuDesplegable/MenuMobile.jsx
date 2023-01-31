@@ -28,12 +28,6 @@ export default function MenuMobile(props) {
         <Link className={styles.items} onClick={clickHandler} to="artista" smooth={true}>
           Artista
         </Link>
-        <Link className={styles.items} onClick={clickHandler} to="cuidados" smooth={true}>
-          Cuidados
-        </Link>
-        <Link className={styles.items} onClick={clickHandler} to="faq" smooth={true}>
-          FAQ
-        </Link>
         <Link className={styles.items} onClick={clickHandler} to="contacto" smooth={true}>
           Contacto
         </Link>

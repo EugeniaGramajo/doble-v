@@ -32,7 +32,7 @@ useEffect(() => {
 }, []);
     return (
       <>
-  <div  className={styles.general}>
+  <div data-aos="zoom-out" className={styles.general}>
 
   <div className="swiper-container" ref={swiperRef}>
     <div className="swiper-wrapper">

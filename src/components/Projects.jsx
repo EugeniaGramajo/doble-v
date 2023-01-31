@@ -13,7 +13,7 @@ export default function Projets() {
         <h2>ULTIMOS TRABAJOS</h2>
         <Media query="(min-width:500px)">
           {(matches) =>
-            matches ? "" : <Slider images={images} view={2}></Slider>
+            matches ? "" : <Slider images={images} view={1}></Slider>
           }
         </Media>
         <Media query="(min-width:500px)">

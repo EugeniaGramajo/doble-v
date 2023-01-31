@@ -1,8 +1,9 @@
 .general{
-    background-color: black;
+    background-color: rgb(6, 6, 6);
     height: fit-content;
     padding: 5px;
+    
 }
 .copy{
-    font-family: 'Karla', sans-serif;
+    font-family: 'Karla', sans-serif;margin: auto;
 }

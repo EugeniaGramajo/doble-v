@@ -4,7 +4,6 @@
   flex-direction: row;
   justify-content: center;
   background-color: black;
-
   width: 100%;
 }
 .img {
@@ -17,13 +16,13 @@
   flex-direction: column;
 }
 .button {
-
+  padding: 0;
   display: flex;
+  margin: auto;
   justify-content: end;
 }
 .general {
   width: 100%;
-  z-index: 100;
   margin: auto;
 }
 .navBarMobile{
@@ -62,10 +61,11 @@
 
 @media (max-width: 500px) {
   .img1 {
-    width: 80%;
+    width: 60%;
   }
 
   .general {
+
     border-bottom: 2px solid #d4af37;
   }
   .LogoDiv {
