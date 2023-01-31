@@ -3,7 +3,6 @@
     margin-top: 10%;
     margin-bottom: 10%;
     width: 100%;
-/* From https://css.glass */
 background: rgba(178, 178, 178, 0.15);
 border-radius: 16px;
 box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -16,14 +15,12 @@ backdrop-filter: blur(2.7px);
 .general h1{
     font-weight: 100;
     font-family: Rye;
-    margin: auto;
-    padding: 10px;
-    text-align: center;
+    margin: auto;    text-align: center;
 }
 .general p {
     width: 85%;
     margin: auto;
-    padding: 10px;
+
     text-align: center;
     align-items: center;
     align-self: center;

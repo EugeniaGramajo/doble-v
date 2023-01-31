@@ -4,7 +4,9 @@ import styles from "../styles/Projects.module.css";
 import { images } from "../Data/proyectos";
 import Media from "react-media";
 
+
 export default function Projets() {
+
   return (
     <>
       <div id="proyectos" className={styles.div}>

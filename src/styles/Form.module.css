@@ -4,7 +4,8 @@
   justify-content: center;
   flex-direction: row;
   height: 504.63px;
- 
+  font-family: rye;
+  font-weight: 100;
 }
 .divform form {
   width:90%;

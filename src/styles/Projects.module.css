@@ -1,4 +1,7 @@
-
+.div{
+    width: 100%;
+    overflow-x: hidden;
+}
 
 .div h2 {
     text-align: center;

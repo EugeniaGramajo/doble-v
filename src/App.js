@@ -10,11 +10,17 @@ import Slogan from './components/Slogan';
 import Border from './components/Border';
 import Home from './components/Home';
 import Artist from './components/Artist';
-
-
+import PerfectScrollbar from 'perfect-scrollbar';
+import { useEffect } from 'react';
 
 
 function App() {
+ document.body.addEventListener('touchmove', function (e) { e.preventDefault(); }, { passive: false });
+  useEffect(() => {
+    const ps = new PerfectScrollbar(document.body, {
+      suppressScrollX: true
+    });
+  }, []);
  
   return (
     <>
@@ -28,7 +34,7 @@ function App() {
     
     <Projects></Projects>
     <Artist></Artist>
-    <FAQ></FAQ>
+
     <Border></Border>
     <Contact></Contact>
   
