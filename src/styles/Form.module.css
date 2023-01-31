@@ -9,6 +9,7 @@
 }
 .divform form {
   width:90%;
+  
 }
 .divnamenum {
   gap: 1rem;
@@ -28,6 +29,7 @@
   box-shadow: 0px 3px 6px 1px rgba(0, 0, 0, 0.556);
   background-color: #eaeaea;
   color: black;
+
 }
 .divmsg {
   width: 99.8%;
@@ -41,6 +43,7 @@
   margin-bottom: 2%;
   color: rgb(255, 255, 255);
   box-shadow: 0px 3px 6px 1px rgba(0, 0, 0, 0.556);
+
 }
 .divmsg:hover{
   transition: 0.5s;
@@ -120,6 +123,7 @@ border-radius: 2px;
   }
   .divnamenum input{
     font-size: 24px;
+
   }
   .hh1{
     font-size:26px;
@@ -128,6 +132,7 @@ border-radius: 2px;
     font-size: 20px;
     height: 500px;
     width: 100%;
+    
   }
   .divmsg{
     font-size: 24px;
@@ -143,7 +148,7 @@ border-radius: 2px;
     padding: 5px;
   }
   .hh1{
-    font-size: 22px;
+    font-size: 20px;
   
   }
   .divform form{
@@ -157,12 +162,13 @@ border-radius: 2px;
   }
   .divmsg{
     font-size: 20px;
-    height: 21%;
+    height: 27%;
   }
 }
 @media(max-width:1200px){
-  .hh1{font-size: 16px;}
-  .divmsg{height: 30%;}
+  .hh1{font-size: 15px;}
+  .divmsg{
+    height: 30%;}
 }
 @media(max-width:900px){
   .divnamenum input{

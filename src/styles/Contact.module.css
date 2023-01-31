@@ -3,9 +3,10 @@
   flex-direction: row;
   align-items: center;
   width: 100%;
+  
 }
 .formsocial h1{
-    width: 100%;
+    width: 98%;
 }
 .contacto {
   display: flex;
@@ -44,7 +45,7 @@
   .contacto {
     width: 50%;
     font-size: 18px;
-    margin-left: 2%;
+    margin-left: 3%;
     margin-top: 15px;
     margin-bottom: 20px;
   }
