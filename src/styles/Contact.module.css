@@ -17,6 +17,10 @@
 .contacto li {
   width: 200px;
 }
+.urlmap{
+  color: white;
+  text-decoration:none;
+}
 
 .form {
   width: 50%;

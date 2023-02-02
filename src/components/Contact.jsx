@@ -16,7 +16,7 @@ export default function Contact(props) {
                  
                     
                     <h1><ImLocation2 className={styles.imlocation}/>
-                        Puerto rico 4205 apto 06 Villa del Cerro. 
+                    <a href="https://goo.gl/maps/mecA6n17R3CtPUXf6" target="_blank" className={styles.urlmap}>Puerto rico 4205 apto 06 Villa del Cerro.</a>
                         </h1>
                     
                     <h1><ImPhone className={styles.imphone}/>
@@ -24,7 +24,7 @@ export default function Contact(props) {
                          </h1>
                 
                     <h1> <BsStopwatch className={styles.bswatch}/>
-                        soy un horarios jaja saludos
+                    Horarios a coordinar !
                         </h1>
                 </div>
 

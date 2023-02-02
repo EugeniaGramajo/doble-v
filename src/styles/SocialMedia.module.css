@@ -153,9 +153,9 @@ justify-content: center;
   }
   .wsp{
     left:80%;
-    top:94%;
-    height: 5%;
-    width: 17%;
+    top:90%;
+    height: 7%;
+    width: 12%;
   }
 }
 @media (max-width:320px){
