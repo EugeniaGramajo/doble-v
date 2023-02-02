@@ -34,16 +34,16 @@ export default function Form() {
                     <div className={styles.divnamenum}>
                     <input type="hidden" name="_next" value="http://localhost:3000/"></input>
                         <input type="hidden" name="_captcha" value="false"></input>
-                        <input type="text" name="name" value={inputs.name} onChange={handleChange} placeholder="Tu Nombre..." required></input>
+                        <input type="text" name="name" value={inputs.name} onChange={handleChange} placeholder="Nombre" required></input>
 
-                        <input type="text" name="asunto" value={inputs.asunto} onChange={handleChange} placeholder="Tu Asunto..." ></input>
+                        <input type="text" name="asunto" value={inputs.asunto} onChange={handleChange} placeholder="Asunto" ></input>
 
-                        <input type="email" name="email" value={inputs.email} onChange={handleChange} placeholder="Tu Email..." required ></input>
+                        <input type="email" name="email" value={inputs.email} onChange={handleChange} placeholder="Email" required ></input>
 
                     </div>
 
 
-                    <textarea className={styles.divmsg} value={inputs.msg} type="text" name="msg" onChange={handleChange} placeholder="Escribe Un Mensaje..." ></textarea>
+                    <textarea className={styles.divmsg} value={inputs.msg} type="text" name="msg" onChange={handleChange} placeholder="Escribe Un Mensaje" ></textarea>
                     
 
 

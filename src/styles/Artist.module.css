@@ -16,6 +16,7 @@ box-shadow: 0 7px 30px rgba(0, 0, 0, 0.1);
     font-family: Rye;
     font-size: 40px;
     margin: auto;    text-align: center;
+    
 }
 .general p {
     width: 85%;
@@ -24,6 +25,7 @@ box-shadow: 0 7px 30px rgba(0, 0, 0, 0.1);
     text-align: center;
     align-items: center;
     align-self: center;
+    font-family: 'Playfair Display', serif;
 }
 .general div{
     width: 80%;

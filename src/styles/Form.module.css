@@ -11,11 +11,65 @@
   width:90%;
   
 }
+input::-webkit-input-placeholder {
+  color: rgb(147, 146, 147);
+  font-family: 'Playfair Display', serif
+}
+
+input::-moz-placeholder {
+  color: rgb(147, 146, 147);
+  font-family: 'Playfair Display', serif
+}
+
+input:-ms-input-placeholder {
+  color: rgb(147, 146, 147);
+  font-family: 'Playfair Display', serif
+}
+
+input::-ms-input-placeholder {
+  color: rgb(147, 146, 147);
+  font-family: 'Playfair Display', serif
+}
+textarea::-webkit-input-placeholder {
+  color: rgb(147, 146, 147);
+  font-family: 'Playfair Display', serif
+}
+
+textarea::-moz-placeholder {
+  color: rgb(147, 146, 147);
+  font-family: 'Playfair Display', serif
+}
+
+textarea:-ms-input-placeholder {
+  color: rgb(147, 146, 147);
+  font-family: 'Playfair Display', serif
+}
+
+textarea::-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.778);
+  font-family: 'Playfair Display', serif
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .divnamenum {
   gap: 1rem;
   
 }
   .divnamenum input {
+    font-family: 'Playfair Display', serif;
+
   width: 32.5%;
   padding: 10px;
   background: rgb(16, 16, 16);
@@ -31,7 +85,9 @@
   color: black;
 
 }
-.divmsg {
+
+.divmsg { 
+  font-family: 'Playfair Display', serif;
   width: 99.8%;
   resize: none;
   height: 200px;
