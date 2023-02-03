@@ -166,6 +166,15 @@ justify-content: center;
     width: 18%;
   }
 }
+@media (max-width:400px){
+  .wsp{
+    left: 80%;
+    top:85%;
+    height: 8%;
+    width: 15%;
+  }
+}
+
 @media (max-width:320px){
   .wsp{
     left: 80%;

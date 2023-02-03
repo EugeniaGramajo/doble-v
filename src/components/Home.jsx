@@ -11,10 +11,11 @@ export default function Home() {
             <img
               data-aos="flip-up"
               className={styles.img1}
-              src="./banner1.png"
-            />
+              src="./banner1.png" />
           ) : (
-            <img data-aos="flip-up" className={styles.img} src="./banner.png" />
+            <img data-aos="flip-up"
+              className={styles.img}
+              src="./banner.png" />
           )
         }
       </Media>
