@@ -10,21 +10,16 @@ export default function Projets() {
         <h2>ULTIMOS TRABAJOS</h2>
         <Media query="(min-width:500px)">
           {(matches) =>
-            matches ? "" : <Slider images={images} view={1}></Slider>}
-        </Media>
-        <Media query="(min-width:500px)">
-          {(matches) =>
-            matches
-              ?
-              (<div><Slider
+            matches ? (<div><Slider sb={150}
+              images={images}
+              view={3}>
+            </Slider>
+              <Slider
                 images={images}
-                view={3}>
+                view={3}
+                sb={144}>
               </Slider>
-                <Slider
-                  images={images}
-                  view={4}>
-                </Slider>
-              </div>) : ""}
+            </div>) : <Slider sb={-180} images={images} view={1}></Slider>}
         </Media>
       </div>
     </>

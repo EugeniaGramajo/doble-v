@@ -17,10 +17,9 @@ export default function Slider(props) {
       slidesPerView: props.view,
       centeredSlides: true,
       allowTouchMove: true,
-      spaceBetween: 20,
+      spaceBetween: props.sb,
       loop: true,
       preloadImages: true,
-      spaceBetween: 10,
       resistance: false,
       modules: [FreeMode],
     });
