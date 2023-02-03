@@ -19,7 +19,7 @@ export default function Projets() {
                 view={3}
                 sb={144}>
               </Slider>
-            </div>) : <Slider sb={-180} images={images} view={1}></Slider>}
+            </div>) : <Slider sb={0} images={images} view={1}></Slider>}
         </Media>
       </div>
     </>
