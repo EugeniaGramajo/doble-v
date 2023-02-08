@@ -6,10 +6,9 @@ body {
   margin: auto;
   font-family: 'Karla', sans-serif;
 }
-html{
-  width: 85%;
+root{
+  overflow: hidden;
 }
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
