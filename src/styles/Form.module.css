@@ -11,11 +11,65 @@
   width:90%;
   
 }
+input::-webkit-input-placeholder {
+  color: rgb(147, 146, 147);
+  font-family: 'Playfair Display', serif
+}
+
+input::-moz-placeholder {
+  color: rgb(147, 146, 147);
+  font-family: 'Playfair Display', serif
+}
+
+input:-ms-input-placeholder {
+  color: rgb(147, 146, 147);
+  font-family: 'Playfair Display', serif
+}
+
+input::-ms-input-placeholder {
+  color: rgb(147, 146, 147);
+  font-family: 'Playfair Display', serif
+}
+textarea::-webkit-input-placeholder {
+  color: rgb(147, 146, 147);
+  font-family: 'Playfair Display', serif
+}
+
+textarea::-moz-placeholder {
+  color: rgb(147, 146, 147);
+  font-family: 'Playfair Display', serif
+}
+
+textarea:-ms-input-placeholder {
+  color: rgb(147, 146, 147);
+  font-family: 'Playfair Display', serif
+}
+
+textarea::-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.778);
+  font-family: 'Playfair Display', serif
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .divnamenum {
   gap: 1rem;
   
 }
   .divnamenum input {
+    font-family: 'Playfair Display', serif;
+
   width: 32.5%;
   padding: 10px;
   background: rgb(16, 16, 16);
@@ -31,7 +85,9 @@
   color: black;
 
 }
-.divmsg {
+
+.divmsg { 
+  font-family: 'Playfair Display', serif;
   width: 99.8%;
   resize: none;
   height: 200px;
@@ -164,11 +220,17 @@ border-radius: 2px;
     font-size: 20px;
     height: 27%;
   }
+  .enviar{
+    bottom: 1%;
+  }
 }
 @media(max-width:1200px){
   .hh1{font-size: 15px;}
   .divmsg{
     height: 30%;}
+    .enviar{
+      bottom: 1%;
+    }
 }
 @media(max-width:900px){
   .divnamenum input{
@@ -190,6 +252,7 @@ padding: 8px;
   .divmsg{
     height: 35%;
     margin-top: 5%;
+    margin-bottom: 5%;
   }
   .divform{
     display: flex;
@@ -235,11 +298,13 @@ padding: 8px;
     overflow: hidden;
 height: 150px;
 margin: auto;
+margin-bottom: 6%;
     width: 90%;
     
   }
 
   .enviar {
+    top:-20px;
     font-size: 12px;
     padding: 9px;
   }
@@ -273,13 +338,16 @@ margin: auto;
     padding: 1%;
     font-size: 14px;
     overflow: hidden;
+    margin: auto;
+    margin-bottom: 10%;
   }
 
   .enviar {
-    font-size: 12px;
+    font-size: 14px;
     padding: 9px;
+    bottom:1%;
   }
   .hh1{
-    font-size: 10px;
+    font-size: 14px;
   }
 }

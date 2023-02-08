@@ -7,9 +7,7 @@ import {menuButton} from "../../store/actions"
 
 export default function ButtonMenu() {
 
-  
-
-  const dispatch = useDispatch()
+const dispatch = useDispatch()
 const aux = useSelector(state=>state.menuButton)
 console.log(aux)
   const clickHandler = () => {
@@ -18,7 +16,10 @@ dispatch(menuButton())
   return (
     <>
       <div className={styles.buttonGeneral}>
-        <button className={styles.button} onClick={clickHandler}>
+        <button 
+        className={styles.button} 
+        onClick={clickHandler}
+        >
           <ButtonStyle></ButtonStyle>
         </button>
       </div>

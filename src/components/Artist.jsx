@@ -7,9 +7,11 @@ export default function Artist() {
       <div id="artista" className={styles.padding}>
         <div data-aos="zoom-out" className={styles.general}>
           <div>
-            <img src={"./profile.jpg"} alt="artista" />
+            <img 
+            src={"./profile.jpg"} 
+            alt="artista" 
+            />
           </div>
-
           <div className={styles.flex}>
             <h1>SOBRE EL ARTISTA</h1>
             <p>Con una pasión incansable por su trabajo, Walter siempre busca nuevos desafíos y oportunidades para crear tatuajes únicos y significativos para sus clientes.
