@@ -75,8 +75,8 @@
     align-items: center;
     justify-content: center;
     justify-items: start;
-    width: 100%;
-    font-size: 14px;
+    width:91%;
+    font-size: 12px;
   }
   .form {
     width: 100%;
@@ -94,7 +94,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 100%;
+    width: 80%;
     font-size: 12px;
     margin-top: 10px;
     margin-bottom: 10px;

@@ -2,7 +2,6 @@ import React from "react";
 import { useDispatch, useSelector } from "react-redux";
 import{ Link }from "react-scroll"
 import styles from "../../styles/Menu.module.css"
-import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import { menuButton } from "../../store/actions";
 
 

@@ -21,10 +21,6 @@
     height: 5px;
     width: 100%;
 }
-.example{
-    display: none;
-    position:relative;
-}
 
 .button {
     cursor: default;

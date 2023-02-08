@@ -12,14 +12,8 @@ export default function Artist() {
 
           <div className={styles.flex}>
             <h1>SOBRE EL ARTISTA</h1>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
-              tortor sem, sagittis vitae mauris nec, semper feugiat massa. Fusce
-              dapibus, libero eget posuere cursus, ex felis sollicitudin justo,
-              ut placerat diam leo eu urna. Cras id magna nisi. Aenean lobortis
-              eros id metus pretium, at condimentum nisl euismod. Pellentesque
-              aliquam est at lorem accumsan sagittis. Vivamus luctus neque sed
-              facilisis elementum. Aenean vel imperdiet mi.
+            <p>Con una pasión incansable por su trabajo, Walter siempre busca nuevos desafíos y oportunidades para crear tatuajes únicos y significativos para sus clientes.
+            Su estilo versátil y habilidades técnicas le permiten crear tatuajes que van desde los más tradicionales hasta los más modernos y elaborados. Cada tatuaje es cuidadosamente diseñado y realizado con la máxima atención a los detalles, garantizando que su arte sea de la más alta calidad.
             </p>
           </div>
         </div>

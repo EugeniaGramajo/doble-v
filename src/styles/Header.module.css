@@ -69,6 +69,6 @@
     border-bottom: 2px solid #d4af37;
   }
   .LogoDiv {
-    width: fit-content;
+    width: 100%
   }
 }

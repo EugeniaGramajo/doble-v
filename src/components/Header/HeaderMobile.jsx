@@ -16,7 +16,7 @@ export default function HeaderMobile() {
           <ButtonMenu />
           
         </div>
-        <div><MenuMobile></MenuMobile></div>
+       {mobileNav===true && <div><MenuMobile></MenuMobile></div>}
         
       </div>
     </>

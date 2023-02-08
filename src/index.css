@@ -1,8 +1,13 @@
 body {
-  margin: 0;
+  background-image: url("../public/background2.jpg.png");
+    overflow-x: hidden;
+    background-size: contain;
+  color: white;
+  margin: auto;
   font-family: 'Karla', sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+}
+html{
+  width: 85%;
 }
 
 code {
